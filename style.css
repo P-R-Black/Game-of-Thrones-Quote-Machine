@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    vertical-align: baseline;
+}
+
+div {
+    position: relative;
+    z-index: 2;
+}
+
+
+
+body {
+    /* padding: 4em 16em; */
+    font-family: 'Redressed', cursive;
+    color: #fff;
+    text-transform: capitalize;
+    background-color: white;
+    background-image: url("https://res.cloudinary.com/prblack/image/upload/v1609450902/WebAssets/img1_iopwa4.jpg"),
+    radial-gradient(#444, #111);
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    background-position: center center;
+    transition: 0.4 ease-out;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+.title h1 {
+    font-size: 3em;
+    text-align: center;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.8)
+}
+
+#quote-box {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    position: relative:
+    width: 500px;
+    padding: 10px 50px;
+    display: table;
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+#quote-box .quote-text{
+    text-align: center;
+    width: 500px;
+    height: auto;
+    clear: both;
+    font-weight: 500;
+    font-size: 3em;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.8)
+}
+
+#quote-box .quote-author {
+    text-align: center;
+    width: 450px;
+    height: auto;
+    clear: both;
+    font-size: 1.9em;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.8);
+
+}
+
+#quote-box, cite {
+    text-align: center;
+}
+
+#quote-box .quote-author #author, cite {
+    color: #f9ff8f;
+    padding-top: 5px;
+}
+
+i {
+    font-size: 35px;
+}
+
+#quote-box .button #new-quote, button {
+    background-color: black;
+    font-family: 'Redressed', cursive;
+    font-weight: 200;
+    border: 2px solid white;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-top: 10px;
+
+}
+
+
+#quote-box .buttons .button {
+    height: 38px;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 1.3em;
+    width: 150px;
+    opacity: 1;
+    cursor: pointer;
+    align: horizontal;
+    margin-top: 10px;
+
+}
+
+#tweet-quote {
+    float: left;
+}
+
+#tumblr-quote {
+    float: right;
+}
+

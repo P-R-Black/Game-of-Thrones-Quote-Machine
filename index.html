@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="Game of Thrones Quote Generator">
+    <meta name="keywords" content="quotes, Game of Thrones">
+    <meta name="author" content="Paul Black">
+    <script src="https://kit.fontawesome.com/27e86509c5.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Game of Throne Quotes</title>
+</head>
+<body class="container" id="background">
+    <section>
+        <div class="title">
+            <h1>Game of Thrones Quotes</h1>
+        </div>
+            <div id="wrapper">
+                <div id="quote-box">
+                    <div class="quote-text"><span id="text"></span></div>
+                    <cite class="quote-author"><span id="author"> </span></cite>
+                    <div class="buttons">
+                        <a href="http" class="button" id="tweet-quote" title="tweet this quote" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                        <button id="new-quote" class="button" onClick="generateQuote()">Win the Throne</button>
+                        <a href="https://www.tumblr.com/widgets/share/tool" class="button" id="tumblr-quote" title="post this quote" target="_blank"><i class="fab fa-tumblr-square"></i></a>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+<!--<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>-->
+<script src="app.js"></script>
+<script src="quotes.js"></script>
+<script id="tumblr-js" async src="https://assets.tumblr.com/share-button.js"></script>
+</body>
+</html>
